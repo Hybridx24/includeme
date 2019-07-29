@@ -40,6 +40,6 @@ Since this library uses `element.outerHTML`, it is important that this library i
 - Chrome 15+ (Possibly even earlier!)
 - Edge 15+
 - Safari 7+
-- IE 10+
+- IE 9+
 - FF 20+
 - Opera 35+
