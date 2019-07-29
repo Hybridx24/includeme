@@ -1,0 +1,25 @@
+{
+    "name": "includeme",
+    "version": "1.0.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Hybridx24/includeme.git"
+    },
+    "scripts": {
+        "pretest": "eslint src",
+        "prebuild": "rm -rf dist/*",
+        "build": "babel src/includeme.js --out-file dist/includeme.min.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "@babel/core": "^7.4.4",
+        "@babel/preset-env": "^7.4.4",
+        "babel-preset-minify": "^0.5.0",
+        "eslint": "^6.1.0"
+    },
+    "keywords": ["includeme"],
+    "author": "hybridx24",
+    "license": "MIT"
+}
